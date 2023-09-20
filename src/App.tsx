@@ -5,7 +5,7 @@ import { Layout } from "./shared/ui/layout/layout";
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/adaptivetest" element={<Layout />}>
         <Route index element={<MainPage />} />
       </Route>
     </Routes>
