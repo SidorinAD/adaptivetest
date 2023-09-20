@@ -9,9 +9,8 @@
   gap: 30px;
   @media (max-width: 830px) {
     flex-direction: column;
-  };
+  }
 }
-
 
 .upBlockLeftSide {
   display: flex;
@@ -22,7 +21,7 @@
   @media (max-width: 530px) {
     max-width: 200px;
     flex-direction: column;
-  };
+  }
 }
 
 .upBlockRightSide {
@@ -70,11 +69,11 @@
   gap: 50px;
   @media (max-width: 600px) {
     grid-template-columns: 1fr 1fr 1fr;
-  };
+  }
   @media (max-width: 420px) {
     grid-template-columns: 1fr 1fr;
-  };
+  }
   @media (max-width: 320px) {
     grid-template-columns: 1fr;
-  };
+  }
 }

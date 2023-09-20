@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [svgr(), react()],
   server: {
     host: true,
-    open: '/adaptivetest/'
-  }
-})
+    open: '/adaptivetest/',
+  },
+});

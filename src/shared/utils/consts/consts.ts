@@ -1,37 +1,37 @@
 export const TextsCardsContent = [
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
   {
     titleText: 'texttext',
-    text: 'text'
+    text: 'text',
   },
-]
+];
 
 export const CompareTableContent = {
   leftSide: [
@@ -103,4 +103,4 @@ export const CompareTableContent = {
       svgRight: true,
     },
   ],
-}
+};

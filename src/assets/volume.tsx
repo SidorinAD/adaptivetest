@@ -1,12 +1,6 @@
 function VolumeSvg() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="15"
-      height="15"
-      fill="none"
-      viewBox="0 0 48 48"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 48 48">
       <g>
         <path fill="#fff" fillOpacity="0.01" d="M0 0H48V48H0z"></path>
         <path

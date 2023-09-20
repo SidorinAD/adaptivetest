@@ -1,6 +1,6 @@
-import { Routes, Route } from "react-router-dom";
-import { MainPage } from "./pages/mainPages/mainPages";
-import { Layout } from "./shared/ui/layout/layout";
+import { Routes, Route } from 'react-router-dom';
+import { MainPage } from './pages/mainPages/mainPages';
+import { Layout } from './shared/ui/layout/layout';
 
 export default function App() {
   return (
