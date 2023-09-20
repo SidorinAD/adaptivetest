@@ -22,7 +22,10 @@ export const CompareTable = (props: CompareTableProps) => {
       <div className="compareTableContent">
         <div className="compareTableColumn">
           {props.leftSide.map((data) => (
-            <div className="compareTableRow" key={data.text}>
+            <div
+              className="compareTableRow"
+              key={data.text}
+            >
               {data.svgLeft === true ? <VolumeSvg /> : <></>}
 
               <p className="compareTableRowText">{data.text}</p>
@@ -36,7 +39,10 @@ export const CompareTable = (props: CompareTableProps) => {
 
         <div className="compareTableColumn">
           {props.rightSide.map((data) => (
-            <div className="compareTableRow" key={data.text}>
+            <div
+              className="compareTableRow"
+              key={data.text}
+            >
               {data.svgLeft === true ? <VolumeSvg /> : <></>}
 
               <p className="compareTableRowText">{data.text}</p>

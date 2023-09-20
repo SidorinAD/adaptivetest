@@ -24,13 +24,25 @@ export const MainPage = () => {
       <div className="upBlock">
         <div className="upBlockLeftSide">
           <Carousel>
-            <img alt="макарунсы" src={cookesJpg} />
+            <img
+              alt="макарунсы"
+              src={cookesJpg}
+            />
 
-            <img alt="цветочки" src={flowersJpg} />
+            <img
+              alt="цветочки"
+              src={flowersJpg}
+            />
 
-            <img alt="растения" src={img_resize} />
+            <img
+              alt="растения"
+              src={img_resize}
+            />
 
-            <img alt="парк" src={parkJpg} />
+            <img
+              alt="парк"
+              src={parkJpg}
+            />
           </Carousel>
         </div>
 
@@ -62,7 +74,10 @@ export const MainPage = () => {
               />
             </div>
 
-            <CompareTable leftSide={CompareTableContent.leftSide} rightSide={CompareTableContent.rightSide} />
+            <CompareTable
+              leftSide={CompareTableContent.leftSide}
+              rightSide={CompareTableContent.rightSide}
+            />
           </div>
         </div>
       </div>
@@ -74,7 +89,14 @@ export const MainPage = () => {
 
         <div className="downBlockTextCardsContainer">
           {TextsCardsContent.map(({ text, titleText }) => {
-            return <TextCard titleText={titleText} text={text} transparent={false} key={titleText} />;
+            return (
+              <TextCard
+                titleText={titleText}
+                text={text}
+                transparent={false}
+                key={titleText}
+              />
+            );
           })}
         </div>
       </div>
