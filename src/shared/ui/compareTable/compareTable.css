@@ -1,0 +1,33 @@
+.compareTableRow {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.compareTableRowText {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size : clamp(1rem, 1vw, 2rem);
+}
+
+.compareTableContainerTitle {
+  text-align: center;
+  font-weight: 600;
+}
+
+.compareTableColumn {
+  padding: 0px 10px;
+}
+
+.compareTableDivider {
+  border: solid 1px black;
+}
+
+.compareTableContent {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
