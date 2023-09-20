@@ -23,7 +23,11 @@ export const MainPage = () => {
     <div className="mainPageContainer">
       <div className="upBlock">
         <div className="upBlockLeftSide">
-          <Carousel>
+          <Carousel
+            style={{
+              borderRadius: '30px',
+            }}
+          >
             <img
               alt="макарунсы"
               src={cookesJpg}
